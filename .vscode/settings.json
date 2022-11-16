@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "devicetree.h": "c",
+        "uart.h": "c",
+        "kernel.h": "c",
+        "device.h": "c",
+        "gpio.h": "c"
+    },
+    "cortex-debug.showRTOS": true,
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "${workspaceFolder}/applications/test"
+}

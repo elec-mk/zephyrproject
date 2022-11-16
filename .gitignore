@@ -1,0 +1,8 @@
+.venv
+build/
+bootloader/
+modules/
+tools/
+zephyr/
+
+.vscode/.cortex-debug.registers.state.json

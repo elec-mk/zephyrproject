@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "venv",
+			"command": "${cwd}\\.venv\\Scripts\\activate.ps1"
+		},
+		{
+			"label": "west build",
+			"command": "west build"
+		},
+		{
+			"label": "Build",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"venv",
+				"west build"
+			]
+		},
+	]
+}
